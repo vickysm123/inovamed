@@ -586,11 +586,13 @@ footer {
       font-weight: 800;
       margin: 1.5rem 0 1rem;
       color: #0d47a1;
+      font-family: "Montserrat", sans-serif;
     }
     .diag-card p {
       font-size: 1.05rem;
       line-height: 1.7;
       color: #444;
+      font-family: "Montserrat", sans-serif;
     }
    
 
