@@ -777,6 +777,7 @@ footer {
       border-radius: 8px;
       transition: all 0.3s ease;
       position: relative;
+      font-family: "Montserrat", sans-serif;
     }
     .nav-link:hover,
     .nav-link.active {
@@ -810,6 +811,7 @@ footer {
       text-transform: uppercase;
       font-size: 0.9rem;
       letter-spacing: 1px;
+      font-family: "Montserrat", sans-serif;
     }
     .btn-enquire:hover {
       border: 1px solid #1e3365;
