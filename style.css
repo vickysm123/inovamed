@@ -39,7 +39,7 @@ body {
   background-size: cover;
   position: relative;
   height: 600px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .Overview_content{
      background-image: url(images/image-section.jpg);
@@ -244,6 +244,7 @@ body {
   color: #000;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+      margin-bottom: 40px;
 }
 .images_center {
   display: flex;

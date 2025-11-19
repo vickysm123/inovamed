@@ -29,47 +29,47 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 custom-nav">
-      <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-          <img src="images/logo.png" alt="Logo" class="me-2" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="company_overview.html"
-                >Company Overview</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#vision">Vision</a>
-            </li>
+      <nav class="navbar navbar-expand-lg inovamed-navbar">
+  <div class="container">
 
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#conatctus">Contact Us</a>
-            </li>
-          </ul>
-          <a href="#" class="btn custom-btn">Enquire Now </a>
-        </div>
-      </div>
-    </nav>
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+     <img src="images/logo.png" alt="" loading="lazy">
+    </a>
+
+    <!-- Toggler for mobile -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#inovamedNav">
+      <i class="bi bi-list fs-3 text-primary"></i>
+    </button>
+
+    <!-- Menu Items -->
+    <div class="collapse navbar-collapse justify-content-center" id="inovamedNav">
+      <ul class="navbar-nav gap-2">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Vision</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="company_overview.html">Company Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Enquire Button -->
+    <div class="d-none d-lg-block">
+      <a href="#contact" class="btn btn-enquire">Enquire Now</a>
+    </div>
+
+  </div>
+</nav>
     <section id="company Overview" class="hero_section_banner">
       <!-- <div class="video_banner">
             <div class="hero-video">
@@ -183,7 +183,49 @@
             </div>
           </div>
         </div>
+<section class="stats-section" data-aos="slide-up" data-aos-delay="100">
+      <div class="container">
+        <div class="row g-4 g-xl-5 justify-content-center" data-aos="slide-up" data-aos-delay="100">
+          <!-- Stat 1 -->
+          <div class="col-6 col-md-4 col-lg-3" data-aos="slide-up" data-aos-delay="100">
+            <div class="stats-card">
+              <div class="icon-circle">🌱</div>
+              <div class="stats-number">2007</div>
+              <div class="stats-label">Company Founded</div>
+            </div>
+          </div>
 
+          <!-- Stat 2 -->
+          <div class="col-6 col-md-4 col-lg-3" data-aos="slide-up" data-aos-delay="100">
+            <div class="stats-card">
+              <div class="icon-circle">🤝</div>
+              <div class="stats-number">2008</div>
+              <div class="stats-label">
+                First partnership 
+              </div>
+            </div>
+          </div>
+
+          <!-- Stat 3 -->
+          <div class="col-6 col-md-4 col-lg-3" data-aos="slide-up" data-aos-delay="100">
+            <div class="stats-card">
+              <div class="icon-circle">💉</div>
+              <div class="stats-number">2009</div>
+              <div class="stats-label">First Filling</div>
+            </div>
+          </div>
+
+          <!-- Stat 4 -->
+          <div class="col-6 col-md-4 col-lg-3" data-aos="slide-up" data-aos-delay="100">
+            <div class="stats-card">
+              <div class="icon-circle">📦</div>
+              <div class="stats-number">2010</div>
+              <div class="stats-label">Portfolio expanded</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
         <!-- Bottom Section - Company Highlights -->
         <div class="mt-5 p-5 bg-primary text-white rounded shadow">
           <h2 class="text-center mb-4">
