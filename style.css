@@ -148,8 +148,34 @@ body {
   color: #1e3365;
   font-family: "Montserrat", sans-serif;
      margin-top: 70px;
+     text-align: center;
 }
-
+.lead_text{
+     font-size: 18px;
+  color: #000;
+  line-height: 35px;
+      margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.text-center{
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.text_strong{
+    color: #1e3365;
+}
+.text-center-para{
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 35px;
+}
+.text-center-heading {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #1e3365;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
 .vision-text {
   font-size: 18px;
   color: #000;
@@ -539,7 +565,7 @@ footer {
       border-top-right-radius: 0;
     }
 .accordian_section{
-    margin-top: 80px;
+    margin-top: 0px;
 }
 .timeline-content h5{
     line-height: 35px;
@@ -748,7 +774,7 @@ footer {
 
 
     .inovamed-navbar {
-      background: #f7f4ef;
+      background: #fff;
       backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(11, 102, 167, 0.1);
       padding: 1rem 0;
@@ -803,6 +829,7 @@ footer {
     .nav-link:hover::after
     /* .nav-link.active::after  */
      { width: 60%;
+        color: #1e3365!important;
     }
     .btn-enquire {
      background: #1e3365;
@@ -825,6 +852,335 @@ footer {
       
       /* box-shadow: 0 10px 25px rgba(11, 102, 167, 0.4); */
     }
+ .banner-slider {
+     
+      height: 100vh;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .swiper-slide {
+      position: relative;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .slide-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      z-index: 10;
+      width: 90%;
+      max-width: 1100px;
+      text-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    }
+
+    .slide-content h1 {
+      font-size: 4.5rem;
+      font-weight: 900;
+      margin-bottom: 1rem;
+      letter-spacing: -2px;
+    }
+
+    .slide-content p {
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-bottom: 2rem;
+      opacity: 0.95;
+    }
+
+    .btn {
+          padding: 11px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.4s;
+    }
+
+    .btn-primary {
+      background: #1e3365;
+      color: white;
+      border: 1px solid #1e3365;
+    }
+
+    .btn-primary:hover {
+      background:#fff;
+      color: #000;
+      transform: translateY(-5px);
+      
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: white;
+      border: 3px solid white;
+    }
+
+    .btn-outline:hover {
+      background: white;
+      color: #1e3365;
+    }
+
+    /* Dark overlay for readability */
+    .swiper-slide::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(135deg, rgb(30 51 101 / 78%), rgba(0,0,0,0.6));
+    }
+
+    /* Custom Navigation Arrows */
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 60px;
+      height: 60px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 50%;
+      backdrop-filter: blur(10px);
+      color: white;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        display:none!important;
+    }
+    /* Pagination Dots */
+    /* .swiper-pagination-bullet {
+      width: 14px;
+      height: 14px;
+      background: rgba(255,255,255,0.5);
+      opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: white;
+      transform: scale(1.4);
+    } */
+
+    /* Responsive */
+.challenges-section {
+      padding: 70px 0;
+      /* background: linear-gradient(135deg, #f8f9fa 0%, #e0e7ff 100%); */
+      position: relative;
+      overflow: hidden;
+    }
+    .section-title {
+          font-size: 32px;
+    font-weight: 700;
+    color: #1e3365;
+    text-align: center;
+    margin-bottom: 90px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    }
+    /* .section-title::after {
+      content: '';
+      width: 140px;
+      height: 7px;
+      background: #42a5f5;
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 4px;
+    } */
+    .challenge-card {
+      perspective: 1500px;
+      height: 100%;
+    }
+    .card-inner {
+      background: white;
+      padding: 2.5rem 2rem;
+      border-radius: 2px;
+      height: 100%;
+      box-shadow: 0 15px 40px rgba(30,51,101,0.15);
+      transition: all 0.5s ease;
+      position: relative;
+      overflow: hidden;
+      clip-path: polygon(15% 0%, 100% 0%, 100% 89%, 86% 100%, 0% 100%, 0% 15%);
+      transform: rotateY(0deg);
+    }
+    .card-inner:hover {
+      transform: translateY(-20px) rotateY(5deg);
+      box-shadow: 0 30px 70px rgba(30,51,101,0.25);
+    }
+    .card-icon {
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
+      display: block;
+    }
+    .card-1 { background: linear-gradient(135deg, #4caf50, #2e7d32); color: white; }
+    .card-2 {    background: linear-gradient(135deg, #1e3365, #0d47a1); color: white; }
+    .card-3 { background: linear-gradient(135deg, #424242, #212121); color: white; }
+    .card-title {
+      font-size: 18px;
+    line-height: 35px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-family: "Montserrat", sans-serif;
+    }
+    .card-list {
+      padding-left: 1.2rem;
+      font-size: 1rem;
+      line-height: 1.8;
+      font-family: "Montserrat", sans-serif;
+    }
+    .card-conclusion {
+      font-style: italic;
+      margin-top: 1.5rem;
+      opacity: 0.95;
+      font-weight: 500;
+      font-family: "Montserrat", sans-serif;
+    }
+.partners-section {
+      padding: 70px 0;    
+    }
+    .section-title {
+          font-size: 32px;
+    font-weight: 700;
+    color: #1e3365;
+    text-align: center;
+    margin-bottom: 4rem;
+     font-family: "Montserrat", sans-serif;
+    }
+    .partner-card {
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(30,51,101,0.1);
+      transition: all 0.4s ease;
+      height: 100%;
+    }
+    .partner-card:hover {
+      transform: translateY(-15px);
+      box-shadow: 0 25px 50px rgba(30,51,101,0.2);
+    }
+    .partner-logo {
+      background: #fff;
+      padding: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid #e9ecef;
+    }
+    .partner-logo img {
+      max-height: 80px;
+      width: auto;
+      filter: grayscale(20%);
+      transition: 0.4s;
+    }
+    .partner-card:hover .partner-logo img {
+      filter: grayscale(0%);
+    }
+    .partner-info {
+      padding: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .partner-name {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #1e3365;
+      margin-bottom: 0.5rem;
+       font-family: "Montserrat", sans-serif;
+    }
+    .partner-type {
+      color: #42a5f5;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+       font-family: "Montserrat", sans-serif;
+    }
+    .partner-desc {
+      color: #555;
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+       font-family: "Montserrat", sans-serif;
+    }
+    .visit-link {
+      color: #1e3365;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: 0.3s;
+       font-family: "Montserrat", sans-serif;
+    }
+    .visit-link:hover {
+      color: #42a5f5;
+      gap: 1rem;
+    }
+    @media (max-width: 768px) {
+      .partner-logo {
+        border-right: none;
+        border-bottom: 1px solid #e9ecef;
+        padding: 2rem;
+      }
+      .section-title { font-size: 2.8rem; }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 992px) {
+      .challenge-card { margin-bottom: 3rem; }
+      .card-inner { clip-path: none !important; border-radius: 20px !important; }
+      .section-title { font-size: 2.8rem; }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    @media (max-width: 768px) {
+      .slide-content h1 { font-size: 3rem; }
+      .slide-content p { font-size: 1.2rem; }
+      .btn { padding: 12px 30px; font-size: 1rem; }
+    }
+
+
+
+    
     @media (max-width: 992px) {
       .navbar-collapse {
         background: white;
