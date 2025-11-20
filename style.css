@@ -100,8 +100,10 @@ body {
   width: 18%;
 }
 .custom-btn1:hover {
-  background-color: #1e3365ed;
-  color: #fff;
+    border: 1px solid #1e3365;
+  background-color: #fff;
+  color: #1e3365;
+  transform: translateY(-4px);
 }
 .feature-section {
   margin-top: -80px;
@@ -816,8 +818,10 @@ footer {
     }
     .btn-enquire:hover {
       border: 1px solid #1e3365;
+  background-color: #fff;
+  color: #1e3365!important;
       transform: translateY(-3px);
-      color: #000!important;
+      
       /* box-shadow: 0 10px 25px rgba(11, 102, 167, 0.4); */
     }
     @media (max-width: 992px) {
