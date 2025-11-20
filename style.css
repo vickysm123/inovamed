@@ -802,11 +802,11 @@ footer {
      { width: 60%;
     }
     .btn-enquire {
-      background: #1e3365;
-      color: white !important;
-      font-weight: 600;
-      padding: 0.7rem 1.8rem;
-      border-radius: 50px;
+     background: #1e3365;
+    color: white !important;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 12px;
       box-shadow: 0 4px 15px rgba(11, 102, 167, 0.3);
       transition: all 0.3s ease;
       text-transform: uppercase;
