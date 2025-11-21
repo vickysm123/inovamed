@@ -168,7 +168,8 @@ body {
         font-size: 18px;
     margin-top: 25px;
     line-height: 30px;
-    text-align: start;
+        text-align: center;
+    padding: 15px;
 }
 .text-center-heading {
     margin-top: 20px;
