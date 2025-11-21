@@ -1393,16 +1393,16 @@ a.text-dark:hover{
     }
 
     .page-header {
-      padding: 5rem 0 6rem;
-      background: #fafafa;
+      /* padding: 5rem 0 6rem;
+      background: #fafafa; */
     }
 
     .page-title {
-      font-size: 3.8rem;
-      font-weight: 300;
-      color: #212529;
-      margin-bottom: 2.5rem;
-      line-height: 1.2;
+         font-size: 40px;
+    font-weight: 600;
+    color: #1e3365;
+    margin-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
     }
 
     .page-text {
@@ -1411,6 +1411,7 @@ a.text-dark:hover{
       line-height: 1.8;
       max-width: 900px;
       margin: 0 auto;
+      font-family: "Montserrat", sans-serif;
     }
 
 
