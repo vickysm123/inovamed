@@ -1440,6 +1440,7 @@ a.text-dark:hover{
       font-size: 2.8rem;
       margin-bottom: 1.5rem;
       display: block;
+      font-family: "Montserrat", sans-serif;
     }
 
     .box-title {
@@ -1447,18 +1448,21 @@ a.text-dark:hover{
       font-weight: 600;
       color: #222;
       margin-bottom: 1rem;
+      font-family: "Montserrat", sans-serif;
     }
 
     .box-text {
       color: #555;
       line-height: 1.7;
       margin-bottom: 1.5rem;
+      font-family: "Montserrat", sans-serif;
     }
 
     .learn-more {
       color: #1e3365;
       font-weight: 600;
       text-decoration: none;
+      font-family: "Montserrat", sans-serif;
     }
 
     .learn-more:hover {
@@ -1469,16 +1473,19 @@ a.text-dark:hover{
       list-style: none;
       padding: 0;
       margin: 2rem 0 0 0;
+      font-family: "Montserrat", sans-serif;
     }
 
     .subcategory-list li {
       margin-bottom: 0.9rem;
+      font-family: "Montserrat", sans-serif;
     }
 
     .subcategory-list a {
       color: #1e3365;
       text-decoration: none;
       font-weight: 500;
+      font-family: "Montserrat", sans-serif;
     }
 
     .subcategory-list a:hover {
