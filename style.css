@@ -913,10 +913,12 @@ footer {
       padding: 10px 25px !important;
        font-family: "Montserrat", sans-serif;
        font-size: 18px;
+           transition: 0.4s;
     }
 
     .nav-link:hover {
       color: #1e3365;
+      transform: translateY(-2px);
     }
     .dropdown-toggle::after {
     display:inline-block;
