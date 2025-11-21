@@ -105,6 +105,13 @@ body {
   color: #1e3365;
   transform: translateY(-4px);
 }
+.Patient-First{
+        color: #1e3365;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
 .feature-section {
   margin-top: -80px;
 }
@@ -116,6 +123,7 @@ body {
   position: relative;
   font-family: "Montserrat", sans-serif;
   height: 235px;
+      transition: 0.4s;
 }
 .feature-box:hover {
   transform: translateY(-9px);
