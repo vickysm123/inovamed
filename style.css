@@ -166,8 +166,8 @@ body {
 }
 .text-center-para{
         font-size: 18px;
-    margin-top: 25px;
-    line-height: 30px;
+    margin-top: 10px;
+    line-height: 28px;
         text-align: center;
     padding: 15px;
 }
@@ -177,6 +177,7 @@ body {
     color: #1e3365;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
+     padding: 15px;
 }
 .vision-text {
   font-size: 18px;
