@@ -173,9 +173,9 @@ a.portfolio_link:hover{
      text-align: center;
 }
 .lead_text{
-     font-size: 18px;
-  color: #000;
-  line-height: 35px;
+         font-size: 20px;
+    color: #333;
+    line-height: 40px;
       margin-top: 20px;
   font-family: "Montserrat", sans-serif;
 }
@@ -192,6 +192,7 @@ a.portfolio_link:hover{
     line-height: 28px;
         text-align: center;
     padding: 15px;
+    color:#333;
 }
 .text-center-heading {
     margin-top: 20px;
@@ -791,7 +792,7 @@ footer {
     font-family: "Montserrat", sans-serif;
     }
     .stats-label {
-      color: #000;
+      color: #333;
       font-weight: 600;
       font-size: 16px;
           margin-top: 14px;
@@ -882,7 +883,8 @@ footer {
     } */ 
 
 .navbar-brand img {
-      height: 50px;
+    width: 165px;
+      height: 75px;
     }
     
     .navbar {
@@ -961,7 +963,7 @@ footer {
       position: sticky;
       top: 0;
       z-index: 1020;
-                 box-shadow: 2px 4px 10px rgb(30 51 101 / 29%) !important;
+               box-shadow: 2px 4px 10px rgb(30 51 101 / 7%) !important;
     }
     .btn-danger {
     --bs-btn-color: #fff;
@@ -1072,7 +1074,8 @@ a.text-dark:hover{
       content: '';
       position: absolute;
       top: 0; left: 0; right: 0; bottom: 0;
-      background: linear-gradient(135deg, rgb(30 51 101 / 78%), rgba(0,0,0,0.6));
+      /* background: linear-gradient(135deg, rgb(30 51 101 / 78%), rgba(0,0,0,0.6)); */
+          background: linear-gradient(135deg, rgb(30 51 101 / 60%), rgba(0, 0, 0, 0.6));
     }
 
     /* Custom Navigation Arrows */
@@ -1409,7 +1412,7 @@ a.text-dark:hover{
 
     .page-text {
       font-size: 1.25rem;
-      color: #555;
+      color: #333;
       line-height: 1.8;
       max-width: 900px;
       /* margin: 0 auto; */
@@ -1418,7 +1421,7 @@ a.text-dark:hover{
     }
 .category_list{
     display: flex;
-    gap: 35px;
+    gap: 55px;
 }
 
 .product-item-img{
@@ -1471,7 +1474,7 @@ ease;
     }
 
     .box-text {
-         color: #555;
+         color: #333;
     line-height: 30px;
     margin-bottom: 24px;
     font-family: "Montserrat", sans-serif;
@@ -1509,10 +1512,11 @@ ease;
     }
 
     .subcategory-list a {
-      color: #000;
+      color: #333;
       text-decoration: none;
       font-weight: 500;
       font-family: "Montserrat", sans-serif;
+      font-size: 14px;
     }
 
     .subcategory-list a:hover {

@@ -26,193 +26,235 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top py-2">
-  <div class="container">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top py-2"
+    >
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="images/logo.png" alt="Logo" height="40" />
+        </a>
 
-    <!-- Logo -->
-    <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="images/logo.png" alt="Logo" height="40">
-    </a>
+        <!-- Search Box -->
+        <form class="d-none d-lg-flex mx-auto w-50">
+          <div class="input-group">
+            <input
+              class="form-control"
+              type="text"
+              placeholder="How can we help you?"
+            />
+            <button class="btn btn-danger">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
 
-    <!-- Search Box -->
-    <form class="d-none d-lg-flex mx-auto w-50">
-      <div class="input-group">
-        <input class="form-control" type="text" placeholder="How can we help you?">
-        <button class="btn btn-danger">
-          <i class="bi bi-search"></i>
-        </button>
-      </div>
-    </form>
-
-    <!-- Right Side Buttons -->
-    <div class="d-flex align-items-center gap-3">
-      <a href="#" class="d-flex align-items-center text-dark small">
-        <i class="bi bi-globe me-1"></i> Change Country
-      </a>
-      <a href="#" class="btn btn-danger rounded px-3" style="border-radius: 8px!important;">Enquire Now</a>
-    </div>
-
-  </div>
-</nav>
-
-
-<!-- SECOND ROW NAVBAR (MENU) -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white  shadow-sm sticky-top">
-  <div class="container justify-content-center">
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#secondMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="secondMenu">
-
-      <ul class="navbar-nav mx-auto fw-bold gap-lg-4">
-        <li class="nav-item ">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Our Vision</a>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="company_overview.html">Company Overview</a>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="portfolio.html">Pharmaceutical products</a>
-        </li>
-
-        
-
-        <li class="nav-item dropdown">
-          <a class="nav-link" href="#" >Contact us</a>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-</nav>
-
-<section class="breadcrumb-banner">
-    <div class="container">
-      <div class="breadcrumb-pill">
-        <a href="index.html">Home</a> / <span>Professional products</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Main Content -->
-  <section class="page-header text-center">
-    <div class="container">
-      <h1 class="page-title">Professional Healthcare Products</h1>
-      <div class="product-item-img">
-      <div class="col-lg-6">
-      <p class="page-text">
-        We offer industry expertise and an expanding portfolio of safe, effective products that improve quality, 
-        manage costs and reduce complexity. With our trusted regulatory experience, insights, and infrastructure, 
-        we help manufacture and source products that meet the demand for value-driven, comprehensive healthcare solutions.
-      </p>
-      </div>
-      <div class="col-lg-6">
-      <img src="images/A13-removebg-preview.png" alt="" loading="lazy">
+        <!-- Right Side Buttons -->
+        <div class="d-flex align-items-center gap-3">
+          <a href="#" class="d-flex align-items-center text-dark small">
+            <i class="bi bi-globe me-1"></i> Change Country
+          </a>
+          <a
+            href="#"
+            class="btn btn-danger rounded px-3"
+            style="border-radius: 8px !important"
+            >Enquire Now</a
+          >
         </div>
-    </div>
-    </div>
-  </section>
+      </div>
+    </nav>
 
+    <!-- SECOND ROW NAVBAR (MENU) -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top"
+    >
+      <div class="container justify-content-center">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#secondMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <div class="container  bcc">
-  <div class="row">
+        <div class="collapse navbar-collapse" id="secondMenu">
+          <ul class="navbar-nav mx-auto fw-bold gap-lg-4">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
 
-    <!-- Left Column -->
-    <div class="col-lg-6">
-      <div class="product-box text-start">
-        <!-- <span class="box-icon text-danger">Icon</span> -->
-        <h3 class="box-title">Medical products and supplies</h3>
-        
-        <p class="box-text">
-          With our large and growing portfolio, we help providers deliver the essential care their patients need across the healthcare continuum. 
-          <a href="#" class="learn-more">Learn more</a>
-        </p>
-        
-<div class="category_list">
-        <ul class="subcategory-list">
-          <li><a href="#">Anesthesia Supplies & Products <span class="rafq"></span></a>
-        
-        </li>
-          <li><a href="#">Durable Medical Equipment</a> <span class="rafq"></span></li>
-          <li><a href="#">Enteral Feeding Tubes and Devices</a><span class="rafq"></span></li>
-          <li><a href="#">Gloves</a><span class="rafq"></span></li>
-          <li><a href="#">Infection Control</a><span class="rafq"></span></li>
-          <li><a href="#">Lab supplies and equipment</a><span class="rafq"></span></li>
-          <li><a href="#">OEM Medical Specialty Products</a><span class="rafq"></span></li>
-          <li><a href="#">Patient Care</a><span class="rafq"></span></li>
-        </ul>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                >Our Vision</a
+              >
+            </li>
 
-        <ul class="subcategory-list mt-3">
-          <li><a href="#">Patient monitoring</a><span class="rafq"></span></li>
-          <li><a href="#">Personal Protective Equipment (PPE)</a><span class="rafq"></span></li>
-          <li><a href="#">Presource® Procedural Packs and Solutions</a><span class="rafq"></span></li>
-          <li><a href="#">Skin and Wound Management</a><span class="rafq"></span></li>
-          <li><a href="#">Surgical supplies and equipment</a><span class="rafq"></span></li>
-          <li><a href="#">VTE prevention solutions</a><span class="rafq"></span></li>
-          <li><a href="#">Woman and Baby</a><span class="rafq"></span></li>
-        </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="company_overview.html"
+                >Company Overview</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="portfolio.html"
+                >Pharmaceutical products</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="breadcrumb-banner">
+      <div class="container">
+        <div class="breadcrumb-pill">
+          <a href="index.html">Home</a> / <span>Professional products</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="page-header text-center">
+      <div class="container">
+        <h1 class="page-title">Professional Healthcare Products</h1>
+        <div class="product-item-img">
+          <div class="col-lg-6">
+            <p class="page-text">
+              We offer industry expertise and an expanding portfolio of safe,
+              effective products that improve quality, manage costs and reduce
+              complexity. With our trusted regulatory experience, insights, and
+              infrastructure, we help manufacture and source products that meet
+              the demand for value-driven, comprehensive healthcare solutions.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/A13-removebg-preview.png" alt="" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container bcc">
+      <div class="row">
+        <!-- Left Column -->
+        <div class="col-lg-6">
+          <div class="product-box text-start">
+            <!-- <span class="box-icon text-danger">Icon</span> -->
+            <h3 class="box-title">Medical products and supplies</h3>
+
+            <p class="box-text">
+              With our large and growing portfolio, we help providers deliver
+              the essential care their patients need across the healthcare
+              continuum.
+              <a href="#" class="learn-more">Learn more</a>
+            </p>
+
+            <div class="category_list">
+              <ul class="subcategory-list">
+                <li>
+                  <a href="#"
+                    >Anesthesia Supplies & Products <span class="rafq"></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#">Durable Medical Equipment</a>
+                  <span class="rafq"></span>
+                </li>
+                <li>
+                  <a href="#">Enteral Feeding Tubes and Devices</a
+                  ><span class="rafq"></span>
+                </li>
+                <li><a href="#">Gloves</a><span class="rafq"></span></li>
+                <li>
+                  <a href="#">Infection Control</a><span class="rafq"></span>
+                </li>
+                <li>
+                  <a href="#">Lab supplies and equipment</a
+                  ><span class="rafq"></span>
+                </li>
+                <li>
+                  <a href="#">OEM Medical Specialty Products</a
+                  ><span class="rafq"></span>
+                </li>
+                <li><a href="#">Patient Care</a><span class="rafq"></span></li>
+              </ul>
+
+              <ul class="subcategory-list mt-3">
+                <li>
+                  <a href="#">Patient monitoring</a><span class="rafq"></span>
+                </li>
+                <li>
+                  <a href="#">Personal Protective Equipment (PPE)</a
+                  ><span class="rafq"></span>
+                </li>
+                <li>
+                  <a href="#">Presource® Procedural Packs and Solutions</a
+                  ><span class="rafq"></span>
+                </li>
+                <li>
+                  <a href="#">Skin and Wound Management</a
+                  ><span class="rafq"></span>
+                </li>
+                <li>
+                  <a href="#">Surgical supplies and equipment</a
+                  ><span class="rafq"></span>
+                </li>
+                <li>
+                  <a href="#">VTE prevention solutions</a
+                  ><span class="rafq"></span>
+                </li>
+                <li>
+                  <a href="#">Woman and Baby</a><span class="rafq"></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Right Column -->
+        <div class="col-lg-6">
+          <div class="product-box text-start">
+            <!-- <span class="box-icon text-danger">Icon</span> -->
+            <h3 class="box-title">Pharmaceutical products</h3>
+            <p class="box-text">
+              We deliver the pharmaceuticals that healthcare providers need to
+              keep their patients healthy.
+              <a href="#" class="learn-more">Learn more</a>
+            </p>
+
+            <ul class="subcategory-list">
+              <li><a href="#">Biosimilars</a><span class="rafq"></span></li>
+              <li><a href="#">Influenza</a><span class="rafq"></span></li>
+              <li>
+                <a href="#">Nuclear medicine</a><span class="rafq"></span>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-</div>
-    <!-- Right Column -->
-    <div class="col-lg-6">
-      <div class="product-box text-start">
-        <!-- <span class="box-icon text-danger">Icon</span> -->
-        <h3 class="box-title">Pharmaceutical products</h3>
-        <p class="box-text">
-          We deliver the pharmaceuticals that healthcare providers need to keep their patients healthy. 
-          <a href="#" class="learn-more">Learn more</a>
-        </p>
-
-        <ul class="subcategory-list">
-          <li><a href="#">Biosimilars</a><span class="rafq"></span></li>
-          <li><a href="#">Influenza</a><span class="rafq"></span></li>
-          <li><a href="#">Nuclear medicine</a><span class="rafq"></span></li>
-        </ul>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <footer>
       <div class="container">
         <div class="row gy-5">
-         
           <div class="col-lg-5">
             <div class="logo mb-4">
               <img src="images/logo.png" alt="Inovamed" />
@@ -233,7 +275,6 @@
             </div>
           </div>
 
-         
           <div class="col-lg-3 col-md-6">
             <h6>Inovamed Ltd</h6>
             <div class="footer-links">
@@ -245,7 +286,6 @@
             </div>
           </div>
 
-          
           <div class="col-lg-3 col-md-6">
             <h6>Legal</h6>
             <div class="footer-links">
@@ -256,7 +296,6 @@
           </div>
         </div>
 
-       
         <div class="copyright">
           Copyright © 2024-2025 GRank Digital Services. All Rights Reserved.
         </div>
@@ -266,14 +305,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-   
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init({ duration: 1200, once: true });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-
   </body>
 </html>
