@@ -973,7 +973,7 @@ footer {
        font-family: "Montserrat", sans-serif;
     }
 
-    /* Sticky Navbar */
+   
     .sticky-top {
       position: sticky;
       top: 0;
@@ -1673,10 +1673,34 @@ border: 1px solid#ccc;
     padding-top: 70px;
 }
 
+.contact-us-map{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
 
-
+.modal-header {
+      border-bottom: 2px solid var(--kims-red);
+    }
+    .modal-title {
+      color: var(--kims-red);
+      font-weight: 700;
+    }
+    .form-control, .form-select {
+      border-radius: 50px;
+       border: 1px solid #ccc;
+    }
+    .form-control:focus, .form-select:focus {
+      border-color: var(--kims-red);
+      
+    }
+    .btn-close-custom {
+      background:#0d427d;
+      opacity: 1;
+      font-size: 1.5rem;
+      color:#000;
+    }
 
 
 
