@@ -1684,15 +1684,18 @@ border: 1px solid#ccc;
       border-bottom: 2px solid var(--kims-red);
     }
     .modal-title {
-      color: var(--kims-red);
+      color: #0d427d;
       font-weight: 700;
+      font-family: "Montserrat", sans-serif;
     }
     .form-control, .form-select {
       /* border-radius: 50px; */
        border: 1px solid #ccc;
+         font-family: "Montserrat", sans-serif;
     }
     .form-control:focus, .form-select:focus {
       border-color: var(--kims-red);
+        font-family: "Montserrat", sans-serif;
       
     }
     .btn-close-custom {
