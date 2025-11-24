@@ -1688,7 +1688,7 @@ border: 1px solid#ccc;
       font-weight: 700;
     }
     .form-control, .form-select {
-      border-radius: 50px;
+      /* border-radius: 50px; */
        border: 1px solid #ccc;
     }
     .form-control:focus, .form-select:focus {
